@@ -1,0 +1,123 @@
+{
+  "params": [
+    {
+      "id": "GOOD",
+      "name": { "id": "dsp_compound_param_name_good" },
+      "eq_low": 1,
+      "eq_mid_low": 1,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 3,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1000
+    },
+    {
+      "id": "PROFESSIONAL",
+      "name": {
+        "id": "dsp_compound_param_name_professional"
+      },
+      "eq_low": -6,
+      "eq_mid_low": -6,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 3,
+      "compression_threshold": -5,
+      "compression_ratio": 20,
+      "echo_delay": 1500,
+      "reverb_roomsize": 1000
+    },
+    {
+      "id": "KARAOKE_DELIGHT",
+      "name": {
+        "id": "dsp_compound_param_name_karaoke_delight"
+      },
+      "eq_low": 1,
+      "eq_mid_low": 1,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 3,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1000
+    },
+    {
+      "id": "FLAT",
+      "name": {
+        "id": "dsp_compound_param_name_flat"
+      },
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1000
+    },
+    {
+      "id": "LARGE_HALL",
+      "name": {
+        "id": "dsp_compound_param_name_large_hall"
+      },
+      "eq_low": 1,
+      "eq_mid_low": 1,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 4,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 2000
+    },
+    {
+      "id": "LARGE_STUDIO",
+      "name": {
+        "id": "dsp_compound_param_name_large_studio"
+      },
+      "eq_low": 1,
+      "eq_mid_low": 1,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 4,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1000
+    },
+    {
+      "id": "SMALL_ROOM",
+      "name": {
+        "id": "dsp_compound_param_name_small_room"
+      },
+      "eq_low": 1,
+      "eq_mid_low": 1,
+      "eq_mid": 3,
+      "eq_mid_high": 3,
+      "eq_high": 4,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 600
+    },
+
+
+    {
+      "id": "VILLAIN",
+      "name": {
+        "id": "dsp_compound_param_name_villain"
+      },
+      "modulation_volume": 100,
+      "modulation_rating": -25,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1500
+    },
+    {
+      "id": "CHIPMUNK",
+      "name": {
+        "id": "dsp_compound_param_name_chipmunk"
+      },
+      "modulation_volume": 100,
+      "modulation_rating": 25,
+      "compression_threshold": -20,
+      "compression_ratio": 5,
+      "reverb_roomsize": 1500
+    }
+
+
+
+  ]
+}

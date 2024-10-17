@@ -1,0 +1,173 @@
+{
+  "metas": [
+    {
+      "pos": 0,
+      "id": "basic",
+      "subscription_id_regex": "basic",
+      "requires_payment": false,
+      "title": {
+        "id": "sub_basic_title"
+      },
+      "description": {
+        "id": "sub_basic_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_basic_badge_text"
+        },
+        "color1": "#FFFFFFFF",
+        "color2": "#FF000000"
+      },
+      "summary": [
+        {
+          "id": "sub_basic_summary1"
+        }
+      ],
+      "selection_text": {
+        "id": "sub_basic_selection_text"
+      },
+      "action_ids": [
+        "subscribe",
+        "logout"
+      ]
+    },
+    {
+      "pos": 1,
+      "id": "premium_24",
+      "subscription_id_regex": "24-hour",
+      "title": {
+        "id": "sub_premium_24_title"
+      },
+      "description": {
+        "id": "sub_premium_24_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_premium_24_badge_text"
+        },
+        "color1": "#FFFFFFFF",
+        "color2": "#FF979797"
+      },
+      "summary": [
+        {
+          "id": "sub_premium_24_summary1"
+        },
+        {
+          "id": "sub_premium_24_summary2"
+        }
+      ],
+      "selection_text": {
+        "id": "sub_selection_text"
+      },
+      "web_payment_url": "popsical.com/plans",
+      "action_ids": [
+        "logout"
+      ]
+    },
+    {
+      "pos": 2,
+      "recommended": true,
+      "id": "premium_monthly",
+      "subscription_id_regex": "popsical-premium$|popsical-[a-z]*-monthly$|premium-[a-z]*-monthly$",
+      "title": {
+        "id": "sub_premium_monthly_title"
+      },
+      "description": {
+        "id": "sub_premium_monthly_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_premium_monthly_badge_text"
+        },
+        "color1": "#FFffd106",
+        "color2": "#FFf49c20"
+      },
+      "price_subtitle": {
+        "id": "sub_premium_monthly_price_subtitle"
+      },
+      "summary": [
+        {
+          "id": "sub_premium_monthly_summary1"
+        },
+        {
+          "id": "sub_premium_monthly_summary2"
+        },
+        {
+          "id": "sub_premium_monthly_summary3"
+        }
+      ],
+      "selection_text": {
+        "id": "sub_selection_text"
+      },
+      "web_payment_url": "popsical.com/plans",
+      "action_ids": [
+        "logout",
+        "cancel"
+      ],
+      "cancellation": {
+        "title": {
+          "id": "cancel_premium_monthly"
+        },
+        "message": {
+          "id": "cancel_premium_monthly_description"
+        },
+        "revert_sentence": {
+          "id": "cancel_premium_monthly_revert_sentence"
+        }
+      }
+    },
+    {
+      "pos": 0,
+      "recommended": true,
+      "id": "premium_plus",
+      "subscription_id_regex": "popsical-premium-plus$",
+      "title": {
+        "id": "sub_premium_plus_title"
+      },
+      "description": {
+        "id": "sub_premium_plus_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_premium_plus_badge_text"
+        },
+        "color1": "#00ffce",
+        "color2": "#272727"
+      },
+      "price_subtitle": {
+        "id": "sub_premium_plus_price_subtitle"
+      },
+      "summary": [
+        {
+          "id": "sub_premium_plus_summary1"
+        },
+        {
+          "id": "sub_premium_plus_summary2"
+        },
+        {
+          "id": "sub_premium_plus_summary3"
+        }
+      ],
+      "selection_text": {
+        "id": "sub_selection_text"
+      },
+      "web_payment_url": "popsical.com/plan",
+      "action_ids": [
+        "logout",
+        "cancel"
+      ],
+      "cancellation": {
+        "title": {
+          "id": "cancel_premium_monthly_plus"
+        },
+        "message": {
+          "id": "cancel_premium_monthly_plus_description"
+        },
+        "revert_sentence": {
+          "id": "cancel_premium_monthly_plus_revert_sentence"
+        }
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">popsical-media</string>
+
+    <string name="enable_random_adaptation" translatable="false">Enable random adaptation</string>
+    <string name="error_unsupported_video" translatable="false">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio" translatable="false">Media includes audio tracks, but none are playable by this device</string>
+    <string name="selection_disabled" translatable="false">Disabled</string>
+    <string name="selection_default" translatable="false">Default</string>
+    <string name="selection_default_none" translatable="false">Default (none)</string>
+    <string name="error_drm_not_supported" translatable="false">Protected content not supported on API levels below 18</string>
+    <string name="error_drm_unsupported_scheme" translatable="false">This device does not support the required DRM scheme</string>
+    <string name="error_drm_unknown" translatable="false">An unknown DRM error occurred</string>
+    <string name="error_no_decoder" translatable="false">This device does not provide a decoder, MIME type: %1$s</string>
+    <string name="error_no_secure_decoder" translatable="false">This device does not provide a secure decoder, MIME type: %1$s</string>
+    <string name="error_querying_decoders" translatable="false">Unable to query device decoders</string>
+    <string name="error_instantiating_decoder" translatable="false">Unable to instantiate decoder, decoder name: %1$s</string>
+</resources>

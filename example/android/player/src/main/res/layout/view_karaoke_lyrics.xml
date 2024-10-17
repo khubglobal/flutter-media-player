@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_lines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/layout_line1_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left">
+
+                <com.easternblu.khub.ktr.view.TempoIndicatorView
+                    android:id="@+id/temp_indicator1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <com.easternblu.khub.ktr.view.LineLayout
+                android:id="@+id/layout_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+
+            </com.easternblu.khub.ktr.view.LineLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_line2_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+                <com.easternblu.khub.ktr.view.TempoIndicatorView
+                    android:id="@+id/temp_indicator2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/layout_line2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="right|center_vertical"-->
+                <!--android:orientation="horizontal">-->
+
+
+            <!--</LinearLayout>-->
+            <com.easternblu.khub.ktr.view.LineLayout
+                android:id="@+id/layout_line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:orientation="horizontal">
+
+
+            </com.easternblu.khub.ktr.view.LineLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <com.easternblu.khub.ktr.view.FuriganaStrokeTextView
+        android:id="@+id/textview_header"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/margin_lyrics"
+        android:layout_marginRight="@dimen/margin_lyrics"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="top|center_horizontal"
+        android:visibility="gone" />
+
+    <com.easternblu.khub.ktr.view.FuriganaStrokeTextView
+        android:id="@+id/textview_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_lyrics"
+        android:layout_marginRight="@dimen/margin_lyrics"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</merge>

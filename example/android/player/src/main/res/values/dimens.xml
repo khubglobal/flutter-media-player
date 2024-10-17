@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <dimen name="margin_lyrics">64dp</dimen>
+    <dimen name="margin_lyrics_2x">128dp</dimen>
+    <dimen name="margin_lyrics_3x">192dp</dimen>
+    <dimen name="margin_lyrics_4x">256dp</dimen>
+    <dimen name="margin_lyrics_5x">320dp</dimen>
+
+    <dimen name="height_indicator">48dp</dimen>
+    <dimen name="radius_indicator">12dp</dimen>
+    <dimen name="separator_indicator">12dp</dimen>
+
+    <dimen name="textsize_tiny">10sp</dimen>
+    <dimen name="textsize_small">12sp</dimen>
+    <dimen name="textsize_medium">14sp</dimen>
+    <dimen name="textsize_large">15sp</dimen>
+    <dimen name="textsize_extra_large">18sp</dimen>
+    <dimen name="textsize_huge">20sp</dimen>
+    <dimen name="textsize_extra_huge">22sp</dimen>
+    <dimen name="textsize_extra_huge2">30sp</dimen>
+    <dimen name="textsize_extra_huge3">60sp</dimen>
+
+</resources>

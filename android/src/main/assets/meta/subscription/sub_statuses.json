@@ -1,0 +1,83 @@
+{
+  "metas": [
+    {
+      "id": "premium_non_renewing",
+      "subscription_id_regex": "popsical-premium$|popsical-[a-z]*-monthly$",
+      "subscription_status_codes": [
+        "premium_non_renewing"
+      ],
+      "description": {
+        "id": "sub_premium_non_renewing_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_premium_monthly_badge_text"
+        },
+        "color1": "#FFffd106",
+        "color2": "#FFf49c20"
+      },
+      "action_ids": [
+        "subscribe",
+        "logout"
+      ]
+    },
+
+    {
+      "id": "premium_cancelled",
+      "subscription_id_regex": "popsical-premium$|popsical-[a-z]*-monthly$",
+      "subscription_status_codes": [
+        "premium_cancelled"
+      ],
+      "title": {
+        "id": "sub_basic_title"
+      },
+      "description": {
+        "id": "sub_basic_description"
+      },
+      "badge": {
+        "text": {
+          "id": "sub_basic_badge_text"
+        },
+        "color1": "#FFFFFFFF",
+        "color2": "#FF000000"
+      },
+      "action_ids": [
+        "subscribe",
+        "logout"
+      ]
+    },
+
+    {
+      "id": "premium_plus",
+      "subscription_id_regex": "popsical-premium-plus$",
+      "subscription_status_codes": [
+        "premium_in_trial",
+        "premium_monthly"
+      ],
+      "title": {
+        "id": "empty_space"
+      },
+      "action_ids": [
+        "logout",
+        "cancel"
+      ]
+
+    },
+
+    {
+      "id": "premium_plus_non_renewing",
+      "subscription_id_regex": "popsical-premium-plus$",
+      "subscription_status_codes": [
+        "premium_non_renewing"
+      ],
+      "description": {
+        "id": "sub_premium_plus_non_renewing_description"
+      },
+      "action_ids": [
+        "subscribe",
+        "logout"
+      ]
+
+    }
+  ]
+}

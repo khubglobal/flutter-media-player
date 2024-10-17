@@ -1,0 +1,39 @@
+{
+  "effects": [
+    {
+      "id": "applause",
+      "audio": "effects/audio/SFXApplauseV1.mp3",
+      "image": "effects/gif/applause.gif"
+    },
+    {
+      "id": "booing",
+      "audio": "effects/audio/SFXBooingV1.mp3",
+      "image": "effects/gif/booing.gif"
+    },
+    {
+      "id": "cheers",
+      "audio": "effects/audio/SFXCheersV1.mp3",
+      "image": "effects/gif/cheers_2.gif"
+    },
+    {
+      "id": "cricket",
+      "audio": "effects/audio/SFXCricketV1.mp3",
+      "image": "effects/gif/zzz.gif"
+    },
+    {
+      "id": "drumroll",
+      "audio": "effects/audio/SFXDrumrollV1.mp3",
+      "image": "effects/gif/drumroll_2.gif"
+    },
+    {
+      "id": "laugh",
+      "audio": "effects/audio/SFXLaughV1.mp3",
+      "image": "effects/gif/laugh.gif"
+    },
+    {
+      "id": "confetti",
+      "audio": "effects/audio/SFXCheersV1.mp3",
+      "confetti": true
+    }
+  ]
+}

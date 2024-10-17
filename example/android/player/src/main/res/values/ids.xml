@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<item name="ktr_object" type="id"/>-->
+    <!--<item name="ktr_previous" type="id"/>-->
+    <!--<item name="ktr_object_id" type="id"/>-->
+    <!--<item name="ktr_schedule_id" type="id"/>-->
+    <!--<item name="ktr_line_state" type="id"/>-->
+    <item name="media_object_id" type="id" />
+</resources>

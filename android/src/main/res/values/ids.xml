@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="icon_imageview" type="id"/>
+    <item name="text_res_id" type="id"/>
+    <item name="position" type="id"/>
+    <item name="range" type="id"/>
+    <item name="object_id" type="id"/>
+    <item name="object" type="id"/>
+    <item name="view_holder" type="id"/>
+    <item name="extra_margins_px" type="id"/>
+
+    <item name="view_holder_and_type" type="id"/>
+    <item name="type" type="id"/>
+    <item name="animation_locked" type="id"/>
+    <item name="is_loading" type="id"/>
+    <item name="animation_hashcode" type="id"/>
+    <item name="original_fontsize" type="id"/>
+    <item name="flags" type="id"/>
+    <item name="was_focusable" type="id"/>
+
+    <item name="menu_play_now" type="id"/>
+    <item name="menu_subscribe" type="id"/>
+    <item name="menu_bring_to_top" type="id"/>
+    <item name="menu_remove_from_queue" type="id"/>
+    <item name="menu_cancel" type="id"/>
+    <item name="menu_add_to_play_queue" type="id"/>
+    <item name="menu_dismiss" type="id"/>
+
+    <item name="internal_child_view" type="id"/>
+</resources>

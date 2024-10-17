@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:strokeAttrs="http://schemas.android.com/apk/res-auto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <!--<com.easternblu.khub.ktr.view.BasicStrokeTextView-->
+        <!--android:id="@+id/textview_layer0"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#aa000000"-->
+        <!--android:ellipsize="none"-->
+        <!--android:textStyle="bold"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/textcolor_layer0"-->
+        <!--android:textSize="48sp"-->
+        <!--strokeAttrs:textStrokeColor="@android:color/black"-->
+        <!--strokeAttrs:textStrokeWidth="1"/>-->
+
+    <!--<com.easternblu.khub.ktr.view.BasicStrokeTextView-->
+        <!--android:id="@+id/textview_layer1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#aaffffff"-->
+        <!--android:ellipsize="none"-->
+        <!--android:textStyle="bold"-->
+        <!--android:singleLine="true"-->
+        <!--android:textColor="@color/textcolor_layer1"-->
+        <!--android:textSize="48sp"-->
+        <!--strokeAttrs:textStrokeColor="@android:color/white"-->
+        <!--strokeAttrs:textStrokeWidth="1"/>-->
+
+</FrameLayout>

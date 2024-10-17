@@ -1,0 +1,422 @@
+{
+  "params": [
+    {
+      "id": "mic_volume",
+      "type": "number",
+      "name": {
+        "id": "dsp_param_mic_volume"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "upper": 10,
+      "value": 5,
+      "steps": 10,
+      "offset": 50,
+      "coefficient": 4
+    },
+    {
+      "id": "eq",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_eq"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "params": [
+        {
+          "id": "eq_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "eq_low",
+          "type": "number",
+          "name": {
+            "id": "dsp_eq_low"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -12,
+          "upper": 12,
+          "value": 0,
+          "steps": 24,
+          "offset": 12
+        },
+        {
+          "id": "eq_mid_low",
+          "type": "number",
+          "name": {
+            "id": "dsp_eq_mid_low"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -12,
+          "upper": 12,
+          "value": 0,
+          "steps": 24,
+          "offset": 12
+        },
+        {
+          "id": "eq_mid",
+          "type": "number",
+          "name": {
+            "id": "dsp_eq_mid"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -12,
+          "upper": 12,
+          "value": 0,
+          "steps": 24,
+          "offset": 12
+        },
+        {
+          "id": "eq_mid_high",
+          "type": "number",
+          "name": {
+            "id": "dsp_eq_mid_high"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -12,
+          "upper": 12,
+          "value": 0,
+          "steps": 24,
+          "offset": 12
+        },
+        {
+          "id": "eq_high",
+          "type": "number",
+          "name": {
+            "id": "dsp_eq_high"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -12,
+          "upper": 12,
+          "value": 0,
+          "steps": 24,
+          "offset": 12
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    },
+    {
+      "id": "modulation",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_modulation"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "params": [
+        {
+          "id": "modulation_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "modulation_rating",
+          "type": "number",
+          "name": {
+            "id":"dsp_modulation_rating"
+          },
+          "has_selectable_param": false,
+          "lower": -25,
+          "steps": 50,
+          "upper": 25,
+          "value": 0,
+          "offset": 25
+        },
+        {
+          "id": "modulation_volume",
+          "type": "number",
+          "name": {
+            "id": "dsp_modulation_volume"
+          },
+          "has_selectable_param": false,
+          "lower": 0,
+          "upper": 100,
+          "value": 100,
+          "steps": 20,
+          "decimal_places": 0
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    },
+    {
+      "id": "compressor",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_compressor"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "params": [
+        {
+          "id": "compressor_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "compressor_threshold_level",
+          "type": "number",
+          "name": {
+            "id": "dsp_compressor_threshold_level"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": -40,
+          "steps": 40,
+          "upper": 0,
+          "value": -20,
+          "offset": 40
+        },
+        {
+          "id": "compressor_ratio",
+          "type": "number",
+          "name": {
+            "id": "dsp_compressor_ratio"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": 1,
+          "steps": 19,
+          "upper": 20,
+          "value": 1
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    },
+    {
+      "id": "echo",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_echo"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "params": [
+        {
+          "id": "echo_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "echo_delay",
+          "type": "number",
+          "name": {
+            "id": "dsp_echo_delay"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": 0,
+          "steps": 25,
+          "upper": 2500,
+          "value": 1250,
+          "coefficient": 0.04
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    },
+    {
+      "id": "reverb",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_reverb"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": false,
+      "lower": 0,
+      "params": [
+        {
+          "id": "reverb_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "reverb_roomsize",
+          "type": "number",
+          "name": {
+            "id": "dsp_reverb_roomsize"
+          },
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "lower": 0,
+          "steps": 60,
+          "upper": 6000,
+          "value": 500,
+          "coefficient": 0.01
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    },
+    {
+      "id": "autotune",
+      "type": "no_value",
+      "name": {
+        "id": "dsp_autotune"
+      },
+      "decimal_places": 0,
+      "has_selectable_param": true,
+      "lower": 0,
+      "params": [
+        {
+          "id": "autotune_enabled",
+          "type": "toggle",
+          "name": {
+            "id": "dsp_enabled"
+          },
+          "bind_value_to_enable_sibling": true,
+          "decimal_places": 0,
+          "has_selectable_param": false,
+          "value": 0
+        },
+        {
+          "id": "note_a",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_a"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_a_sharp",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_a_sharp"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_b",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_b"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_c",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_c"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_c_sharp",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_c_sharp"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_d",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_d"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_d_sharp",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_d_sharp"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_e",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_e"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_f",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_f"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_f_sharp",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_f_sharp"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_g",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_g"
+          },
+          "has_selectable_param": false
+        },
+        {
+          "id": "note_g_sharp",
+          "type": "no_value",
+          "name": {
+            "id": "dsp_note_g_sharp"
+          },
+          "has_selectable_param": false
+        }
+      ],
+      "steps": 10,
+      "upper": 10,
+      "value": 0
+    }
+  ]
+}

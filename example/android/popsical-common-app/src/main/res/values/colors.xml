@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/neon_pink</color>
+    <color name="colorPrimaryDark">@color/neon_pink_dark</color>
+    <color name="colorPrimaryDarker">@color/neon_pink_darker</color>
+    <color name="colorAccent">@color/turquoise</color>
+    <color name="colorAccentLight">@color/turquoise_lighter</color>
+    <color name="colorAccentDark">@color/turquoise_darker</color>
+    <color name="colorPrimaryTranslucent">@color/neon_pink_translucent</color>
+    <color name="colorPrimaryTranslucent2">@color/neon_pink_translucent2</color>
+
+    <color name="colorAccentTranslucent">@color/turquoise_translucent</color>
+    <color name="colorAccentNearTransparent">@color/turquoise_translucent</color>
+
+    <!--Colors according to design spec from Bravo-->
+    <!--Darker version is by adding 10 to each color values-->
+    <!--Lighter version is by minus 10 to each color values-->
+    <!--Reference: http://graphicdesign.stackexchange.com/questions/25795/how-to-create-a-lighter-darker-shade-of-a-color-for-the-hover-state-of-a-button-->
+    <color name="neon_pink">#f800e6</color>
+    <color name="neon_pink_dark">#f010f6</color>
+    <color name="neon_pink_darker">#d210d7</color>
+    <color name="neon_pink_lighter">#ff10f6</color>
+    <color name="neon_pink_translucent">#88f800e6</color>
+    <color name="neon_pink_translucent2">#80ec008c</color>
+    <color name="turquoise">#00ffce</color>
+    <color name="turquoise_lighter">#10ffde</color>
+    <color name="turquoise_darker">#00efbe</color>
+    <color name="turquoise_translucent">#8800ffce</color>
+    <color name="turquoise_near_transparent">#ee00ffce</color>
+    <color name="purple">#a002ff</color>
+    <color name="purple_translucent">#88a002ff</color>
+    <color name="gray12cc">#cc1f1f1f</color>
+    <color name="gray12ee">#ee1f1f1f</color>
+    <color name="purple_darker">#9002ef</color>
+    <color name="purple_lighter">#b012ff</color>
+    <color name="cyan">#00f1f7</color>
+    <color name="cyan_translucent">#8000f1f7</color>
+    <color name="cyan_translucent_pale">#4000f1f7</color>
+    <color name="cyan_darker">#00a0a4</color>
+    <color name="cyan_lighter">#00ffff</color>
+    <color name="tiffany">#12cdb6</color>
+
+
+
+    <color name="green">#13b700</color>
+    <color name="electric_green">#2aff53</color>
+    <color name="electric_green_translucent">#882aff53</color>
+    <color name="electric_green_darker">#2aff53</color>
+
+    <color name="light_red">#ffa2b3</color>
+
+    <color name="hot_red">#fe3b5e</color>
+    <color name="blue">#006fe6</color>
+    <color name="cool_blue">#204ef9</color>
+    <color name="amber">#ffb300</color>
+    <color name="orange">#ff9b1d</color>
+    <color name="yellow">#fff53f</color>
+    <color name="aqua">#3facff</color>
+
+
+    <color name="hot_red_translucent">#88fe3b5e</color>
+    <color name="cool_blue_translucent">#88204ef9</color>
+    <color name="amber_translucent">#88ffce1d</color>
+    <color name="orange_translucent">#88ff9b1d</color>
+    <color name="yellow_translucent">#88fff53f</color>
+    <color name="aqua_translucent">#883facff</color>
+
+
+    <color name="background_facebook">#3b5998</color>
+    <color name="background_facebook_darker">#2b4988</color>
+    <color name="background_facebook_lighter">#4b69A8</color>
+    <color name="background">#222222</color>
+    <color name="background_translucent">#88222222</color>
+    <color name="play_queue_track_divider">#353535</color>
+
+    <!--For toast-->
+    <color name="dark_gray_background">#ee3d404f</color>
+    <color name="dark_gray_alpha7C">#7c3d404f</color>
+</resources>
